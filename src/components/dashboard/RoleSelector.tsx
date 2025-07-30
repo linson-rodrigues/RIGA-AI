@@ -83,7 +83,7 @@ export function RoleSelector({ onRoleSelect }: RoleSelectorProps) {
         {/* Header */}
         <div className="text-center space-y-4">
           <h1 className="text-4xl font-bold text-foreground">
-            Welcome to SentinelAI
+            Welcome to RIGA.AI
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Unified AI Security & Governance Platform

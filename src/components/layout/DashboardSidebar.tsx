@@ -16,7 +16,7 @@ import {
   ChevronDown,
   ChevronRight
 } from 'lucide-react';
-import sentinelLogo from '@/assets/sentinel-logo.png';
+import rigaLogo from '@/assets/riga-logo.png';
 
 interface SidebarProps {
   activeView: string;
@@ -184,12 +184,12 @@ export function DashboardSidebar({ activeView, onViewChange, userRole }: Sidebar
       {/* Header */}
       <div className="flex items-center gap-3 p-6 border-b border-sidebar-border">
         <img 
-          src={sentinelLogo} 
-          alt="SentinelAI" 
+          src={rigaLogo} 
+          alt="RIGA.AI" 
           className="h-8 w-8"
         />
         <div>
-          <h1 className="text-lg font-semibold text-sidebar-foreground">SentinelAI</h1>
+          <h1 className="text-lg font-semibold text-sidebar-foreground">RIGA.AI</h1>
           <p className="text-xs text-muted-foreground">AI Security Platform</p>
         </div>
       </div>
